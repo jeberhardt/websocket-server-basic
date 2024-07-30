@@ -1,6 +1,11 @@
 # websocket-basic
 
-Mavin interface for barnacles.
+A basic websocket server implementation that demonstrates how to authenticate to a websocket connection using a token string added to the query string.
+
+To run:
+
+- At the command line, run the command: `npm run simulator`
+- Connect to the websocket server with the following URL: `localhost:3001?token=your_access_token` (replace localhost if necessary, and replace `your_access_token` with the ACCESS_TOKEN found in the `.env` file.)
 
 ## Contributing
 
